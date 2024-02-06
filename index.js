@@ -7,7 +7,7 @@ mongoose.set('strictQuery', false);
 // Подключение к базе данных
 mongoose
     .connect(
-      'mongodb+srv://Max1der:maxider2908@rgrdb.samnjs8.mongodb.net/AutoExclusive?retryWrites=true&w=majority'
+      'mongodb+srv://admin:392311@snowland.qe6ee9e.mongodb.net/?retryWrites=true&w=majority'
     )
     .then(() => {
         console.log('Database Connected');
